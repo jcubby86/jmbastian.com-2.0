@@ -4,7 +4,7 @@
     <div class="section">
       <h2>Rubik's Cubes</h2>
       <div class="item">
-        <img src="@/assets/images/pexels-pixabay-54101.jpg" />
+        <img src="@/assets/images/rubiks-cubes.jpg" />
         <div class="item-text">
           <h4>Rubik's Cube Collection</h4>
           <p>
@@ -17,7 +17,7 @@
       </div>
       <h2>Video Games</h2>
       <div class="item">
-        <img src="@/assets/images/pexels-fox-1038916.jpg" />
+        <img src="@/assets/images/video-games.jpg" />
         <div class="item-text">
           <p>
             Ever since the first video game I played, which may have been Lego

@@ -33,7 +33,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="@/assets/images/DSC_1180.jpg" />
+        <img src="@/assets/images/wedding.jpg" />
         <div class="item-text">
           <p>
             In January 2020 I began attending BYU and studying Computer Science.
