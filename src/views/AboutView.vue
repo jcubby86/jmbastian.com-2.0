@@ -1,6 +1,6 @@
 <template>
   <div class="container py-5">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center align-items-center">
       <div class="col-md-3 col-6">
         <img class="p-2 img-fluid" src="@/assets/images/me.jpg" />
       </div>
@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center align-items-center">
       <div class="col-md-3 col-6 order-md-2">
         <img class="p-2 img-fluid" src="@/assets/images/mission.jpg" />
       </div>
@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center align-items-center">
       <div class="col-md-3 col-6">
         <img class="p-2 img-fluid" src="@/assets/images/wedding.jpg" />
       </div>
@@ -77,5 +77,7 @@
 </template>
 
 <style scoped>
-
+.row:not(:last-child) {
+  margin: 10px 0;
+}
 </style>
