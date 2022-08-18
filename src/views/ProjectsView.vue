@@ -20,7 +20,7 @@
             <img class="p-2 img-fluid" src="@/assets/images/weather.jpg" />
           </div>
           <div class="col-md-9">
-            <a href="http://lab2.jmbastian.com"><h4>Lab 2 - Weather Forecast</h4></a>
+            <a href="http://weather.jmbastian.com"><h4>Lab 2 - Weather Forecast</h4></a>
           </div>
         </div>
 
@@ -86,7 +86,7 @@
             <img class="p-2 img-fluid" src="@/assets/images/rubiks-cubes.jpg" />
           </div>
           <div class="col-md-9">
-            <a href="http://gallery.jmbastian.com"><h4>Rubik's Cubes</h4></a>
+            <a href="http://rubiks.jmbastian.com"><h4>Rubik's Cubes</h4></a>
             <p>
               I have been collecting Rubik's cubes since I was about 15 years
               old. One day I was playing with one at a friend's house, and I
