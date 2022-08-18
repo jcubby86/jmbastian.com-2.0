@@ -1,24 +1,33 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <router-link class="navbar-brand" to="/"><img src="@/assets/logo.png"></router-link>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <router-link class="nav-item nav-link" to="/" v-bind:class="{ active: currentPage === '/' }">Home</router-link>
-        <router-link class="nav-item nav-link" to="/about" v-bind:class="{ active: currentPage === '/about' }">About</router-link>
-        <router-link class="nav-item nav-link" to="/projects" v-bind:class="{ active: currentPage === '/projects' }">Projects</router-link>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--blue);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="@/assets/logo.png" alt="" width="40" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <router-link class="nav-link" v-bind:class="{ active: currentPage === '/' }" :aria-current-value="page" to="/">Home</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" v-bind:class="{ active: currentPage === '/about' }" :aria-current-value="page" to="/about">About</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" v-bind:class="{ active: currentPage === '/projects' }" :aria-current-value="page" to="/projects">Projects</router-link>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
   <router-view/>
-  <div class="footer">
-    <a href="https://github.com/jcubby86/jmbastian.com-2.0"><h5>View GitHub Repository here</h5></a>
-  </div>
 </template>
 
 <script>
+import '@/assets/main.scss'
+
 export default {
   computed: {
     currentPage() {

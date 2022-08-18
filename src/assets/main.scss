@@ -1,0 +1,18 @@
+:root {
+    --dark-green: #157145;
+    --green: #57A773;
+    --dark-blue: #6A8EAE;
+    --blue: #9BD1E5;
+    --light-blue: #D1FAFF;
+}
+
+body,* {
+    font-family: Verdana, Arial, Tahoma, Serif;
+}
+
+@media (min-width: 992px) { 
+    .item img {
+        width: 200px;
+    }
+}
+
