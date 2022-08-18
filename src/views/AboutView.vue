@@ -78,6 +78,7 @@
 
 <style scoped>
 .row:not(:last-child) {
-  margin: 10px 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 </style>

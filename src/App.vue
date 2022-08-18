@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import '@/assets/main.scss'
+import '@/assets/main.css'
 
 export default {
   computed: {
