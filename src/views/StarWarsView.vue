@@ -1,8 +1,10 @@
 <template>
-  <div id="content" class="content">
-    <h1>Star Wars</h1>
-    <div id="films">
-      <h2 id="title">Loading...</h2>
+  <div class="container py-5">
+    <div id="content" class="content">
+      <h1>Star Wars</h1>
+      <div id="films">
+        <h2 id="title">Loading...</h2>
+      </div>
     </div>
   </div>
 </template>
