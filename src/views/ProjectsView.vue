@@ -159,6 +159,17 @@
                 </p>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-3 col-6">
+            <img class="p-2 img-fluid" src="@/assets/images/bomgame.png" />
+          </div>
+          <div class="col-md-9">
+            <a target="_blank" href="https://github.com/jcubby86/bomgame"><h4>bomgame</h4></a>
+                <p>
+                  This is a simple game I made using python and pygame based off of a story I loved as a child!
+                </p>
+          </div>
+        </div>
 
       </div>
     </div>

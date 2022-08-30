@@ -6,44 +6,39 @@
       </div>
       <div class="col-md-6">
         <p>
-          I was born in Orem, Utah, and lived there until I was about 3 years
-          old. We moved to Montana for about a year to be close to my maternal
-          grandparents while my father looked for a new job. After I turned 4
-          we moved back to Utah to the city of Clearfield so my dad could
-          start his new job. We lived there for nearly 10 years, and then
-          another new job brought our family to Washington State. There I
-          attended high school and found a love of Computer Science before I
-          graduated!
+          I attended high school in Washington State, and it was there I found a love for Computer Science! My father, a Computer Scientist himself,
+          encouraged me to give it a try my freshman year, and I was instantly sold. My first class was taught in Visual Basic, and although I wish I 
+          could track it down, most of the code I wrote in that class is long lost. I also took AP Computer Science in high school, and scored a 5 on
+          the AP Computer Science Test. After that, I took a few classes in Java from a local community college. 
         </p>
       </div>
     </div>
 
     <div class="row justify-content-center align-items-center">
       <div class="col-md-3 col-6 order-md-2">
-        <img class="p-2 img-fluid" src="@/assets/images/mission.jpg" />
+        <img class="p-2 img-fluid" src="@/assets/images/byu.png" />
       </div>
       <div class="col-md-6">
         <p>
-          After graduating High School I chose to serve a two-year mission for
-            the Church of Jesus Christ of Latter-Day Saints. I was assigned to
-            serve in Salta, Argentina, and it was a wonderful experience in
-            which I was able to learn a lot and help lots of people. I made so
-            many new friends and was able to help many people grow their love of
-            Christ, while personally growing much closer to him as well.
+          In January 2020 I began attending BYU and studying Computer Science.
+          I was really excited to resume my learning and prepare myself for a future career.
+          I have learned a lot while studying at BYU, both in the classroom and in the employment opportunities I have had.
+          I've been able to work as a computer science instructor for children who are beginning to code, and as a Web Developer
+          for BYU Housing using the ASP.net framework. 
         </p>
       </div>
     </div>
 
     <div class="row justify-content-center align-items-center">
       <div class="col-md-3 col-6">
-        <img class="p-2 img-fluid" src="@/assets/images/wedding.jpg" />
+        <img class="p-2 img-fluid" src="@/assets/images/code.jpg" />
       </div>
       <div class="col-md-6">
         <p>
-          In January 2020 I began attending BYU and studying Computer Science.
-          In February I met the love of my life, and we were married in the
-          Mount Timpanogos Temple in May 2021. I am getting close to finishing
-          my undergraduate degree, and I am enjoying every minute of it!
+          Recently I have been exploring the realm of self-hosting as a hobby. I have gotten myself very familiar with
+          docker and docker-compose, and I have been using portainer to manage my services. I use cloudflare to make some of my services public
+          while trying to minimize the attack surface to my home network as much as possible. This site is actually hosted in my very own apartment!
+          See some of the services I am hosting <a href="https://github.com/jcubby86/portainer-compose">here</a>.
         </p>
       </div>
     </div>
