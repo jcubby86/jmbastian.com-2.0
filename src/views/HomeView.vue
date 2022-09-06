@@ -56,7 +56,7 @@
           and applications.
         </li>
         <li class="list-group-item">
-          CS 393 - Advanced Alforithms &amp; Problem Solving: This class focuses
+          CS 393 - Advanced Algorithms &amp; Problem Solving: This class focuses
           on doing well in competitive programming and the kinds of technical
           questions often presented in interviews.
         </li>
